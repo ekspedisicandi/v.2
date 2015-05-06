@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+html, body {
+  margin: 0;
+	padding: 0;
+	height: 100%;
+
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+
+}
+#section{
+  height: 100%;
+  width: 100%;
+ 	background: #eee url("http://i.imgur.com/c97YrF7.jpg") no-repeat center center / cover;
+}
+#section1{
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+ul li a {
+  display: block;
+  height: 100px;
+  width: 100%;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  float: left;
+  border: 1px solid #333;
+  border-bottom: none;
+  margin: 0 5px;
+}
+ul li a {
+  text-decoration: none;
+}
+input{
+
+}
+#time_main{
+  border: none;
+  color: #000;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-size: 8em;
+  float: bottom;
+  position: absolute;
+  margin-top: 50px;
+  bottom: 0;
+ margin-bottom: 160px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 175px;
+}
+h9{
+  font-size: 4em;
+  color: white;
+  position: absolute;
+ bottom: 0;
+  margin-bottom: 105px;
+  margin-left: 175px;
+}
+h2{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 185px;
+  margin-left: 425px;
+}

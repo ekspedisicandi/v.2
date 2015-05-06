@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Windows 8 login screen - CodePen</title>
+
+    <link rel="stylesheet" href="css/time.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div id="section">
+  <div id="screen-1">
+    <div id="time">
+      <div class="taskbar"> <div class="clock1">
+        <form name="Tick">
+          <input type="text" size="11" id="time_main" name="Clock">
+        </div>
+      </div>
+    </div>
+    <div id="date">
+      <h9>
+        <script type="text/javascript">
+          var currentTime = new Date()
+          var month = currentTime.getMonth() + 1
+          var day = currentTime.getDate()
+          var year = currentTime.getFullYear()
+          document.write(month + "-" + day + "-" + year)
+          </script>
+        </h9> 
+    </div>
+     <div id="information">
+       <h2>Waktu Yogyakarta sekarang <br /> update automatically</h2>
+     </div>
+      <div id="icons">
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/time.js"></script>
+
+</body>
+
+</html>
